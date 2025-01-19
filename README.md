@@ -5,16 +5,10 @@
 in progress 
 
 --> 
-
-Done
- - benchmark for simple
- - benchmark for batch
- - create charts
-   
+ 
 TOODs :
  - work on async
  - benchmark for async
- - publish here
    
  
 
