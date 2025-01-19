@@ -11,6 +11,7 @@ Done
  - benchmark for batch
    
 TOODs :
+ - create charts
  - work on async
  - benchmark for async
  - publish here
