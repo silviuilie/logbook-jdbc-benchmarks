@@ -2,7 +2,12 @@
 
 Results of the benchmark job from [logbook-jdbc-sink](https://gitlab.com/mt4321138/logbook-jdbc-sink)
 
-### benchmarks
+
+#### [raw result](jmh-result-logbook-jackson.json) 
+
+#### [system](jmh-run-system.out) 
 
 
-see mb [logbook-jdbc-sink](https://gitlab.com/mt4321138/logbook-jdbc-sink)
+#### jmh Mode - Throughput : 
+
+![chart](./jmh-result-logbook-jackson.png)
