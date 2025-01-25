@@ -6,9 +6,6 @@ in progress
 
 --> 
  
-TOODs :
- - work on async
- - benchmark for async
    
  
 
