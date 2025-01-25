@@ -1,0 +1,116 @@
+[
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.pm.zalando.logbook.jdbc.batch.batchBenchmark.run",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/java/openjdk-17/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "17.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.2+8-86",
+        "warmupIterations" : 5,
+        "warmupTime" : "5000 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "5000 ms",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 128.4081316107225,
+            "scoreError" : 6.982953289315225,
+            "scoreConfidence" : [
+                121.42517832140729,
+                135.39108490003773
+            ],
+            "scorePercentiles" : {
+                "0.0" : 116.48485567359022,
+                "50.0" : 129.1584946004644,
+                "90.0" : 132.8053740433054,
+                "95.0" : 132.80543263065294,
+                "99.0" : 132.80543263065294,
+                "99.9" : 132.80543263065294,
+                "99.99" : 132.80543263065294,
+                "99.999" : 132.80543263065294,
+                "99.9999" : 132.80543263065294,
+                "100.0" : 132.80543263065294
+            },
+            "scoreUnit" : "ops/ms",
+            "rawData" : [
+                [
+                    132.80543263065294,
+                    130.275173219499,
+                    132.8048467571773,
+                    130.33278743946084,
+                    127.98137392359074,
+                    127.61804391642576,
+                    129.91648897933504,
+                    128.40050022159377,
+                    127.4618133458996,
+                    116.48485567359022
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.35",
+        "benchmark" : "org.pm.zalando.logbook.jdbc.batch.directBenchmark.run",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/usr/java/openjdk-17/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "17.0.2",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.2+8-86",
+        "warmupIterations" : 5,
+        "warmupTime" : "5000 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "5000 ms",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.223195857412461,
+            "scoreError" : 0.013566378879256763,
+            "scoreConfidence" : [
+                0.20962947853320424,
+                0.23676223629171778
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.20985080895966934,
+                "50.0" : 0.22845189583872552,
+                "90.0" : 0.23158559494327788,
+                "95.0" : 0.231716778640891,
+                "99.0" : 0.231716778640891,
+                "99.9" : 0.231716778640891,
+                "99.99" : 0.231716778640891,
+                "99.999" : 0.231716778640891,
+                "99.9999" : 0.231716778640891,
+                "100.0" : 0.231716778640891
+            },
+            "scoreUnit" : "ops/ms",
+            "rawData" : [
+                [
+                    0.21024904026399469,
+                    0.20985080895966934,
+                    0.2149445072606937,
+                    0.2176647068881995,
+                    0.2269031045688823,
+                    0.2301505325492564,
+                    0.23040494166475997,
+                    0.231716778640891,
+                    0.23000068710856875,
+                    0.230073466219695
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
