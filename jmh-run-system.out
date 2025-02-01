@@ -10,5 +10,5 @@ Model name:          AMD EPYC 7B13
 -------------------------------
 MEM
 MemTotal:        8145544 kB
-MemFree:         5370220 kB
-MemAvailable:    7542712 kB
+MemFree:         5392104 kB
+MemAvailable:    7564284 kB
